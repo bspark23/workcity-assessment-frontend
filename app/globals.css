@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Animated stars background */
+.stars {
+  width: 1px;
+  height: 1px;
+  background: transparent;
+  box-shadow:
+    1541px 1046px #fff, 1446px 1848px #fff, 1531px 1715px #fff,
+    1552px 1100px #fff, 1695px 1495px #fff, 1217px 1756px #fff,
+    1864px 1570px #fff, 1820px 1696px #fff, 1531px 1045px #fff,
+    1791px 1885px #fff, 1152px 1417px #fff, 1863px 1456px #fff,
+    1856px 1815px #fff, 1495px 1539px #fff, 1652px 1120px #fff,
+    1728px 1748px #fff, 1756px 1285px #fff, 1537px 1495px #fff,
+    1789px 1176px #fff, 1268px 1190px #fff, 1654px 1445px #fff,
+    1850px 1720px #fff, 1745px 1502px #fff, 1650px 1886px #fff;
+  animation: animStar 50s linear infinite;
+}
+
+.stars:after {
+  content: " ";
+  position: absolute;
+  top: 2000px;
+  width: 1px;
+  height: 1px;
+  background: transparent;
+  box-shadow:
+    1541px 1046px #fff, 1446px 1848px #fff, 1531px 1715px #fff,
+    1552px 1100px #fff, 1695px 1495px #fff, 1217px 1756px #fff,
+    1864px 1570px #fff, 1820px 1696px #fff, 1531px 1045px #fff,
+    1791px 1885px #fff, 1152px 1417px #fff, 1863px 1456px #fff,
+    1856px 1815px #fff, 1495px 1539px #fff, 1652px 1120px #fff,
+    1728px 1748px #fff, 1756px 1285px #fff, 1537px 1495px #fff,
+    1789px 1176px #fff, 1268px 1190px #fff, 1654px 1445px #fff,
+    1850px 1720px #fff, 1745px 1502px #fff, 1650px 1886px #fff;
+}
+
+.stars2 {
+  width: 2px;
+  height: 2px;
+  background: transparent;
+  box-shadow:
+    790px 1346px #fff, 924px 1456px #fff, 543px 1815px #fff,
+    1240px 1356px #fff, 1045px 1495px #fff, 817px 1756px #fff,
+    1264px 1570px #fff, 1020px 1696px #fff, 731px 1045px #fff,
+    1091px 1885px #fff, 652px 1417px #fff, 1163px 1456px #fff,
+    1056px 1815px #fff, 895px 1539px #fff, 1052px 1120px #fff,
+    1228px 1748px #fff, 1156px 1285px #fff, 937px 1495px #fff,
+    1289px 1176px #fff, 768px 1190px #fff, 1054px 1445px #fff,
+    1250px 1720px #fff, 1145px 1502px #fff, 1050px 1886px #fff;
+  animation: animStar 100s linear infinite;
+}
+
+.stars2:after {
+  content: " ";
+  position: absolute;
+  top: 2000px;
+  width: 2px;
+  height: 2px;
+  background: transparent;
+  box-shadow:
+    790px 1346px #fff, 924px 1456px #fff, 543px 1815px #fff,
+    1240px 1356px #fff, 1045px 1495px #fff, 817px 1756px #fff,
+    1264px 1570px #fff, 1020px 1696px #fff, 731px 1045px #fff,
+    1091px 1885px #fff, 652px 1417px #fff, 1163px 1456px #fff,
+    1056px 1815px #fff, 895px 1539px #fff, 1052px 1120px #fff,
+    1228px 1748px #fff, 1156px 1285px #fff, 937px 1495px #fff,
+    1289px 1176px #fff, 768px 1190px #fff, 1054px 1445px #fff,
+    1250px 1720px #fff, 1145px 1502px #fff, 1050px 1886px #fff;
+}
+
+.stars3 {
+  width: 3px;
+  height: 3px;
+  background: transparent;
+  box-shadow:
+    1341px 946px #fff, 1646px 1248px #fff, 1031px 1715px #fff,
+    1552px 1400px #fff, 1295px 1495px #fff, 1417px 1756px #fff,
+    1664px 1570px #fff, 1220px 1696px #fff, 1031px 1345px #fff,
+    1491px 1885px #fff, 1052px 1417px #fff, 1463px 1456px #fff,
+    1256px 1815px #fff, 1095px 1539px #fff, 1352px 1120px #fff,
+    1528px 1748px #fff, 1356px 1285px #fff, 1037px 1495px #fff,
+    1489px 1176px #fff, 1268px 1390px #fff, 1354px 1445px #fff,
+    1650px 1720px #fff, 1445px 1502px #fff, 1250px 1886px #fff;
+  animation: animStar 150s linear infinite;
+}
+
+.stars3:after {
+  content: " ";
+  position: absolute;
+  top: 2000px;
+  width: 3px;
+  height: 3px;
+  background: transparent;
+  box-shadow:
+    1341px 946px #fff, 1646px 1248px #fff, 1031px 1715px #fff,
+    1552px 1400px #fff, 1295px 1495px #fff, 1417px 1756px #fff,
+    1664px 1570px #fff, 1220px 1696px #fff, 1031px 1345px #fff,
+    1491px 1885px #fff, 1052px 1417px #fff, 1463px 1456px #fff,
+    1256px 1815px #fff, 1095px 1539px #fff, 1352px 1120px #fff,
+    1528px 1748px #fff, 1356px 1285px #fff, 1037px 1495px #fff,
+    1489px 1176px #fff, 1268px 1390px #fff, 1354px 1445px #fff,
+    1650px 1720px #fff, 1445px 1502px #fff, 1250px 1886px #fff;
+}
+
+@keyframes animStar {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-2000px);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(139, 92, 246, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(139, 92, 246, 0.5);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(139, 92, 246, 0.7);
+}
